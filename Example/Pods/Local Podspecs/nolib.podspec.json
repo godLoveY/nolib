@@ -1,0 +1,22 @@
+{
+  "name": "nolib",
+  "version": "0.1.0",
+  "summary": "A short description of nolib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/godLoveY/nolib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "godLoveY": "1576539655@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/godLoveY/nolib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "nolib/Classes/**/*"
+}

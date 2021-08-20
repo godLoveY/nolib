@@ -1,0 +1,6 @@
+framework module nolib {
+  umbrella header "nolib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - nolib (0.1.0)
+
+DEPENDENCIES:
+  - nolib (from `../`)
+
+EXTERNAL SOURCES:
+  nolib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  nolib: 1917ec7576d84048f3658127223d3bb9637b33e8
+
+PODFILE CHECKSUM: 4af87204f3cb64babff4fa1731da295fb301901c
+
+COCOAPODS: 1.10.0
