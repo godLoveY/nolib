@@ -1,0 +1,6 @@
+use_frameworks!
+target 'nolib_Tests' do
+  pod 'nolib', :path => '../'
+  
+  
+end
