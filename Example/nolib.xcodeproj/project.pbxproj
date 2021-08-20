@@ -150,6 +150,7 @@
 				ORGANIZATIONNAME = godLoveY;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -327,6 +328,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A175949690E1935489137DE8 /* Pods-nolib_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -341,6 +344,8 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nolib_Example.app/nolib_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -351,6 +356,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02F27D39C10B7F132E39C3B8 /* Pods-nolib_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -361,6 +368,8 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nolib_Example.app/nolib_Example";
 				WRAPPER_EXTENSION = xctest;

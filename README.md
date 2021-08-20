@@ -18,6 +18,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'nolib'
+pod 'nolib',:git =>"https://github.com/godLoveY/nolib.git"
 ```
 
 ## Author
